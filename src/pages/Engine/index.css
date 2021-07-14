@@ -1,0 +1,24 @@
+.engine-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    
+}
+
+.engine-container h2 {
+    text-align: center;
+}
+
+.engine-container h1 {
+    margin-top: 0px;
+}
+
+.grafico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

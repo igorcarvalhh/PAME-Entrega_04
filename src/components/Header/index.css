@@ -1,0 +1,48 @@
+header {
+    height: 100px;
+    background-color: rgb(12 12 12);
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; /* alinha verticalmente*/
+    padding: 0px 60px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.nav-options {
+    display: flex;
+    gap: 20px;  /*adiciona espaco entre os elementos filhos*/
+}
+
+
+.nav-options h3 {
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px 20px;
+    color:white;
+}
+
+
+.nav-options h3:hover{
+    transition: 0.3s;
+    background-color: #212121;
+}
+
+
+.selected {
+    background-color: #212121;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
