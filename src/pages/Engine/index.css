@@ -1,5 +1,5 @@
 .engine-container {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
 }
@@ -20,5 +20,35 @@
 .grafico {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+    margin-right: 40px;
+}
+
+.grafico h2{
+    margin-top: 0px;
+    padding-left: 40px;
+}
+
+.funcionarios-permitidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.funcionarios-permitidos button{
+    margin-top: 20px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    
+}
+
+.engine-container div h3 {
+    background-color: #006eff;
+    padding: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0px;
 }

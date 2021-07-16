@@ -1,0 +1,10 @@
+.funcionarioList-container li {
+    border: 1px solid black;
+
+}
+
+.funcionarioList-container {
+    list-style-type: none;
+    
+}
+

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./index.css"
 
 export default function Header() {
@@ -10,11 +10,20 @@ export default function Header() {
             </div>
             
             <div className="nav-options">
-                <Link to="/menu">
+                <NavLink to="/menu" activeClassName="selected">
                     <h3 className="selected">Motores</h3>
-                </Link>
+                </NavLink>
+                <NavLink to="/pesos" activeClassName="selected">
+                   <h3>Pesos</h3> 
+                </NavLink>
                 
-                <h3>Perfil</h3>
+                <NavLink to="/funcionarios" activeClassName="selected">
+                    <h3>Funcionários</h3>
+                </NavLink>
+                <NavLink to="/perfil" activeClassName="selected">
+                    
+                </NavLink>
+                
             </div>
         </header>
     )
